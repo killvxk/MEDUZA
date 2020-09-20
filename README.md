@@ -5,7 +5,7 @@
 
 ## What is MEDUZA?
 
-It's my replacement for SSLKillSwitch. I created it for in-house use, but then decided to opensource it. TBH, I hate open source, but the world is full of compromises... :(
+It's my replacement for [SSLKillSwitch](https://github.com/nabla-c0d3/ssl-kill-switch2). I created it for in-house use, but then decided to opensource it. TBH, I hate open source, but the world is full of compromises... :(
 
 ## How does it work?
 
