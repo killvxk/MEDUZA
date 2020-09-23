@@ -1,11 +1,12 @@
 # MEDUZA
+
 ![](frida-script.png)
 
 ![](mitmpoxy.png)
 
 ## What is MEDUZA?
 
-It's my replacement for [SSLKillSwitch](https://github.com/nabla-c0d3/ssl-kill-switch2). I created it for in-house use, but then decided to opensource it. TBH, I hate open source, but the world is full of compromises... :(
+It's a [Frida](https://frida.re/)-based tool, my replacement for [SSLKillSwitch](https://github.com/nabla-c0d3/ssl-kill-switch2). I created it for in-house use, but then decided to opensource it. TBH, I hate open source, but the world is full of compromises... :(
 
 ## How does it work?
 
@@ -14,6 +15,8 @@ It's simple. First time, you run an app without sniffing and use it as usual. ME
 ## Limitations
 
 MEDUZA can only unpin apps using iOS system SSL libs. Some apps (e.g. Instagram) do not use the system SSL libs, they implement some third-party custom SSL stack (for example, Instagram uses OpenSSL statically linked to an Instagram private frameworks, see [InstagramSSLPinningBypass-iOS](https://github.com/kov4l3nko/InstagramSSLPinningBypass-iOS) for details).
+
+Also, MEDUZA is based on Frida, so it does not work on apps with anti-Frida protection.
 
 ## Can I use MEDUZA alongside with other SSL bypass tools, e.g. SSLKillSwitch?
 
