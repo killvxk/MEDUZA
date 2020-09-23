@@ -15,7 +15,7 @@ It's simple. First time, you run an app without sniffing and use it as usual. ME
 
 MEDUZA can only unpin apps using iOS system SSL libs. Some apps (e.g. Instagram) do not use the system SSL libs, they implement some third-party custom SSL stack (for example, Instagram uses OpenSSL statically linked to one of Instagram private frameworks).
 
-## Can I use it alongside with other tools, e.g. SSLKillSwitch
+## Can I use MEDUZA alongside with other SSL bypass tools, e.g. SSLKillSwitch?
 
 I didn't test it, but MEDUZA employs a different approach than SSLKillSwitch and similar tools, so, theoretically, they should work together without problems. Again, I didn't test it, so I'm not 100% sure. 
 
