@@ -26,7 +26,7 @@ I didn't test it, but MEDUZA employs a different approach than SSLKillSwitch and
 
 - A Mac with MacOS Mojave or later (maybe MEDUZA works on Windows and Linux as well, but it was not tested)
 
-- A jailbroken iOS device (MEDUZA was tested on iPhone SE 2016 with iOS 13.3 jailbroken by [checkra1n](https://checkra.in/); theoretically, MEDUZA should work with other devices as well, but it was not tested)
+- A jailbroken iOS device (MEDUZA was tested on iPhone SE 2016 with iOS 13.3 and iPhone 6s with iOS 14.0, both are jailbroken with [checkra1n](https://checkra.in/); theoretically, MEDUZA should work with other devices as well, but it was not tested)
 
 - The latest [Frida](https://frida.re/) installed on the Mac and the iOS device.
 
