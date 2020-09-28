@@ -1,5 +1,7 @@
 # MEDUZA
 
+"MEDUZA" ("медуза") means "jellyfish" in Ukrainian.
+
 ![](frida-script.png)
 
 ![](mitmpoxy.png)
