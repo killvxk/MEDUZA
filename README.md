@@ -1,5 +1,7 @@
 # MEDUZA
 
+"MEDUZA" ("медуза") means "jellyfish" in Ukrainian :ukraine:.
+
 ![](frida-script.png)
 
 ![](mitmpoxy.png)
@@ -153,6 +155,14 @@ The first step is completed. The second step is to use the script:
 
     See Frida documentation for other options (e.g. to connect already running application).
 
-## It doesn't work, what to do?
+## How to protect an app from MEDUZA?
 
-Try to fix it yourself or just forget about it. I take a look at this GitHub account from time to time ( ==once a year) and support MEDUZA in my spare time ( ==never), so the pain you feel while using MEDUZA is 100% yours.
+There are many ways to do it, e.g.
+
+1. Instagram uses a statically-linked fork of OpenSSL instead of iOS system libs to implement SSL stack. That is why MEDUZA doesn't work on Instagram. 
+
+2. You can add some anti-Frida protection to your app. MEDUZA is based on Frida: if Frida fails, MEDUZA fails as well.
+
+## MEDUZA doesn't work, what to do?
+
+Try to fix it yourself or create an issue. However, I take a look at this GitHub account from time to time ( ==once a year) and support MEDUZA in my spare time ( ==never), so I can't guarantee any support. Welcome to the opensource world ;(
